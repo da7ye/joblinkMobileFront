@@ -6,7 +6,6 @@ import 'package:flutter_application_1/screens/homePage.dart';
 
 
 void main() async {
-  // Fetch categories from the API
   var categories = await APIServices.getCategories();
   // var providers = await APIServices.getProviders();
 
